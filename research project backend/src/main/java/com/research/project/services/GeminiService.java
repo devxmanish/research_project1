@@ -15,7 +15,7 @@ import java.util.Map;
 @Service
 public class GeminiService implements LLMService {
     private final WebClient webClient;
-    private final String geminiApiKey = "AIzaSyCRP6SlpSDqD_JBqm5JnoF3cSLACV61n10"; // Replace with actual API key
+    private final String geminiApiKey = API_KEY; // Replace with actual API key
     private final String geminiUrl = "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=" + geminiApiKey;
     private final ObjectMapper objectMapper = new ObjectMapper();
 
