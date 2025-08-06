@@ -15,7 +15,7 @@ import java.util.*;
 @Service
 public class GrokService implements LLMService {
     private final WebClient webClient;
-    private final String grokApiKey = "xai-hkp4xpGAfFw4dYIwIDwgEq5mCXGwIH7y6LLKyarNOyzLsa7PDYNkBNWa38HEFQ1rvzX49rWCmtKNsafN";
+    private final String grokApiKey = API_KEY;
     private final String grokUrl = "https://api.x.ai/v1/chat/completions";
     private final ObjectMapper objectMapper = new ObjectMapper();
 
