@@ -13,7 +13,7 @@ public class DeepSeekService implements LLMService {
 
     private final RestTemplate restTemplate = new RestTemplate();
     private final ObjectMapper objectMapper = new ObjectMapper();
-    private final String apiKey = "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"; // Replace with your actual OpenRouter API key
+    private final String apiKey = API_KEY; // Replace with your actual OpenRouter API key
     private final String apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
     @Override
